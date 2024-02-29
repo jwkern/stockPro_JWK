@@ -33,16 +33,16 @@ RUNNING THE CODE:
 
 3) In customerSatisfaction.sql, change the file path on line 27 and 96-106 from "/home/jwkern/..." to point to your local directory containing the files 
 
-4) Run the script by typing the following into the command line:
+4) Run the script in R Studio by either:
+4.1) Opening the file stockPro_JWK.r script and clicking the "Source" button in the top right corner of the window
+   or
+4.2) Highlighting all of the code and clicking "Run"
+   or
+4.3) using the console window command line to type:
 
-            mysql --local-infile=1 -u username -p password < customerSatisfaction_JWK.sql
-
-(P.S. don't forget to change the username and password to your mySQL credentials)
-
-4.1) If you wish to save the output in a .txt file, instead run the script as:
-      
-            mysql --local-infile=1 -u username -p password < customerSatisfaction_JWK.sql > output.txt
-
+            source("~/R/General/stockPro_JWK.r")
+   
+   P.S. change the source string to the directory path containing the R script on your local machine
 
 ___________________________________________________________________________________________________________________________________________________________________
 ___________________________________________________________________________________________________________________________________________________________________
