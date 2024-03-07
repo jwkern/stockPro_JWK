@@ -31,7 +31,7 @@ RUNNING THE CODE:
 
 2) In a terminal, cd into the directory that now contains the .csv list and the .r scripts
 
-3) In customerSatisfaction.sql, change the file path on line 27 and 96-106 from "/home/jwkern/..." to point to your local directory containing the files 
+3) In stockPro_JWK.r, change the file path on line 27 and 96-106 from "/home/jwkern/..." to point to your local directory containing the files 
 
 4) Run the script in R Studio by either:
 4.1) Opening the file stockPro_JWK.r script and clicking the "Source" button in the top right corner of the window
